@@ -1,17 +1,17 @@
 {
   "name": "cordova-plugin-logger-esd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cordova Plugin Logger",
   "keywords": [
     "cordova",
-    "keyboard",
+    "logger",
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android"
   ],
   "engines": {
     "cordovaDependencies": {
-      "0.0.1": {
+      "0.0.2": {
         "cordova-ios": ">=7.0.0",
         "cordova-android": ">=13.0.0"
       }
