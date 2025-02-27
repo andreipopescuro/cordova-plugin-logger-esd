@@ -1,4 +1,4 @@
-package com.esd.Logger
+package com.esd.logger
 
 import android.util.Log
 import org.apache.cordova.CallbackContext
