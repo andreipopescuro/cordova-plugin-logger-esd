@@ -16,8 +16,8 @@ exports.log = function (options, success, error) {
 
   const getValue = argscheck.getValue;
 
-  const tag = getValue(options.tag, LoggerConstants.Tag.DEFAULT);
   const logType = getValue(options.logType, LoggerConstants.LogType.INFO);
+  const tag = getValue(options.tag, LoggerConstants.Tag.DEFAULT);
 
   const args = [logType, tag, options.message];
 
